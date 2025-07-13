@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.28;
+pragma solidity ^0.8.19;
 
 //. 0.2.4 Instructions specified this line (https://github.com/smartcontractkit/chainlink-local/releases/tag/v0.2.4):
 //
