@@ -1,0 +1,20 @@
+{
+  "name": "datastreamOracle",
+  "version": "1.0.0",
+  "description": "Chainlink Streams Local Playground",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf artifacts/* cache/* typechain-types/*",
+    "build-hardhat": "npx hardhat compile",
+    "test-hardhat": "npx hardhat test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "hardhat": "^2.25.0"
+  },
+  "dependencies": {
+    "@chainlink/local": "^0.2.5"
+  }
+}
