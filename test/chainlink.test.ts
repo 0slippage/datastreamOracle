@@ -51,7 +51,7 @@ describe("ClientReportsVerifier", function () {
 
     const unverifiedReport = await mockReportGenerator.generateReportV3();
 
-    await consumer.verifyReport(unverifiedReport);
+    await consumer.verifyReport(unverifiedReport.signedReport);
 
     const lastDecodedPrice = await consumer.lastDecodedPrice();
     assert(lastDecodedPrice === initialPrice);
